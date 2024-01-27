@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 500px;
+    height: 428px;
+    background-color: #242526;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/************** MAIN TOP **************/
+
+.main-top{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    height: 60px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-top h1{
+    font-size: 20px;
+}
+
+.cross-icon{
+    height: 32px;
+    width: 32px;
+    background-color: #ffffff1A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+}
+
+.cross-icon:hover{
+    background-color: #4E4F51;
+}
+
+.cross-icon i{
+    font-size: 16px;
+    color: #e4e6eb;
+    font-weight: 300;
+}
+
+/************** MAIN MID **************/
+
+.main-mid{
+    height: 226px;
+}
+
+.info{
+    display: flex;
+    gap: 11px;
+    padding: 16px;
+}
+
+.info-left img{
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.info-right p{
+    font-weight: 600;
+    font-size: 15px;
+    color: #e4e6eb;
+}
+
+.friends{
+    background-color: #ffffff1A;
+    color: #e4e6eb;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.friends i{
+    font-size: 11px;
+}
+
+textarea{
+    background-color: #242526;
+    width: 100%;
+    border: none;
+    height: 120px;
+    font-size: 24px;
+    padding: 0 16px;
+    color: #e4e6eb;
+}
+
+textarea::placeholder{
+    color: #A2B3B8;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.custom-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.custom-text span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.custom-text i{
+    color: #A2B3B8;
+    cursor: pointer;
+}
+
+.custom-text span:hover{
+    background-color: #4E4F51;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+/************** MAIN BOTTOM **************/
+
+.main-bottom{
+    border: 1px solid #3e4042;
+    border-radius: 10px;
+    margin: 0 16px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bg-and-emoji{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.bg img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.left{
+    background-color: #3e4042;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left:hover{
+    background-color: #4E4F51;
+}
+
+.bg-color{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 3px 0;
+}
+
+.left, .blue, .red, .purple, .green{
+    height: 34px;
+    width: 34px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.blue{
+    background-color:aqua;
+}
+
+.red{
+    background-color: red;
+}
+
+.purple{
+    background-color:purple;
+}
+
+.green{
+    background-color: green;
+}
+
+.emoji i{
+    font-size: 24px;
+    color: #A2B3B8;
+    cursor: pointer;
+}
+
+.emoji i:hover{
+    color: #e4e6eb;
+}
+
+.btn{
+    margin: 16px;
+}
+
+.btn button{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #2076FF;
+}
